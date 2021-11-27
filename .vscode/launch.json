@@ -1,6 +1,7 @@
 {
-    //sepera_okeq launch file.
-    //Default config settings.
+    // Project launch file.
+    // Default config settings.
+    // by sepera_okeq. 2021
     "version": "0.2.0",
     "configurations": [
         {
