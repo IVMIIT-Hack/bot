@@ -1,3 +1,5 @@
 .vscode/settings.json
 config.ini
 db/*.db
+src/parser_table/__pycache__/__init__.cpython-39.pyc
+src/parser_table/__pycache__/parser.cpython-39.pyc
