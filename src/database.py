@@ -1,0 +1,1 @@
+#!seperaokeq/bin/python
