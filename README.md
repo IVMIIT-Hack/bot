@@ -9,11 +9,14 @@
 
 #### Бот помогает абитуренту узнать, какое его положение в списках, и найти для себя лучший вариант.
 
+#### Реверсинг сайта КФУ
+  [~  Документация по API](https://github.com/IVMIIT-Hack/bot/blob/main/docs/main.md)
+
 #### Схема работы:
-  [~ Mira](https://miro.com/app/board/o9J_lgi4oC8=/)
+  [~  Mira](https://miro.com/app/board/o9J_lgi4oC8=/)
 
 #### Демонстрация работы:
-[![Demo](https://github.com/IVMIIT-Hack/bot/raw/main/any/2021-11-28-15-43-42.gif)]
+![Demo](https://github.com/IVMIIT-Hack/bot/raw/main/any/2021-11-28-15-43-42.gif)
 
 ____
 
