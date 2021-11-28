@@ -12,12 +12,8 @@
 #### Схема работы:
   [~ Mira](https://miro.com/app/board/o9J_lgi4oC8=/)
 
-#### Демка:
-<video width="320" height="240" controls>
-  <source src="any/2021-11-28 15-43-42.mp4" type="video/mp4">
-</video>
-
-
+#### Демонстрация работы:
+[![Demo](https://github.com/IVMIIT-Hack/bot/raw/main/any/2021-11-28-15-43-42.gif)]
 
 ____
 
