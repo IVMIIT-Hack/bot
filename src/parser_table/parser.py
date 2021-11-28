@@ -1,3 +1,4 @@
+#!seperaokeq/bin/python
 from html.parser import HTMLParser 
 # Пасхалка: Не изобретай велосипед, а просто улучи его!
 
