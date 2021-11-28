@@ -1,6 +1,12 @@
- <center><img src="https://sun9-55.userapi.com/impf/Qd8E_3CFdBCm6ruuqN696KC20u5_nfAkXU1YZw/5n4-KTRisNk.jpg?size=230x230&quality=96&sign=f61e93039c925fb920115bd815fd01dd&type=album" ...></center>
 
-## Telegram Bot "My Raitng KPFU"
+</style>
+<p align="center">
+    <img src="https://sun9-55.userapi.com/impf/Qd8E_3CFdBCm6ruuqN696KC20u5_nfAkXU1YZw/5n4-KTRisNk.jpg?size=230x230&quality=96&sign=f61e93039c925fb920115bd815fd01dd&type=album"/>
+    <p align="center">
+       <h2 align="center">Telegram Bot My Raitng KPFU</h2>
+    </p>
+</p>
+
 
 #### Бот помогает абитуренту узнать, какое его положение в списках, и найти для себя лучший вариант.
 
