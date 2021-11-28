@@ -49,7 +49,6 @@ async def kpfu_bot_auth(message: types.Message, state: FSMContext):
         await message.answer("Открыть меню?", reply_markup=keyboard)
 
 @dp.message_handler(text="Меню" or "Отмена" or "Назад")
-@dp.message_handler(state=Reg.uuid)
 async def kpfu_bot_menu(message: types.Message):
     keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
     buttons = ["Настройки", "Показать рейтинг"]
