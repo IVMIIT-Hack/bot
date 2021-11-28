@@ -4,22 +4,24 @@ import requests
 import pandas as pd
 import sqlite3
 import threading
+import src.core
 from bs4 import BeautifulSoup
 from pathlib import Path
 from parser_table import HTMLTableParser
 
+"""
+    Заранее известные аргументы об институте, типах обучения, и категории.
+"""
 global_inst = [0, 1, 5]
 global_typeofstudy = [0, 1, 2, 3]
 global_category = [1, 2]
-
-file_path = r"C:/Users/seper/Documents/IVMIIT-Hack/bot"
 
 class DataBaseAbiturents():
     """
         Этот класс отвечает за обработку и импорт данных с сайта и
         создание базы данных локально, чтобы можно было работать с ней.
         
-        Реализована поддержка (частично) многопоточности при обращении к сайту и парсинг данных.
+        Реализована RE при обращении к сайту и парсинг данных.
     """
     def __init__(self):
         self.global_inst = [0, 1, 5]
@@ -108,7 +110,7 @@ class DataBaseAbiturents():
                             s = p.tables
                             if(s!=[]): 
                                 df = pd.DataFrame(s[0])
-                                full_file_path = str(file_path + "/db/csv/" + str(p_inst_option['value']) + "/" + str(p_faculty_option['value']) + "/" + str(p_speciality_option['value']) + "/" + str(p_typeofstudy_option['value']) + "/")
+                                full_file_path = str(src.core.file_path + "/db/csv/" + str(p_inst_option['value']) + "/" + str(p_faculty_option['value']) + "/" + str(p_speciality_option['value']) + "/" + str(p_typeofstudy_option['value']) + "/")
                                 if not os.path.exists(full_file_path): #Если пути не существует создаем его
                                     os.makedirs(full_file_path)
                                 df.to_csv(full_file_path + "/" + str(p_category_option) + ".csv")
